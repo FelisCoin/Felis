@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Felis</title>
+        <style>
+            body{
+                background-color: orange;
+                color: white;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            #main-section{
+                position: relative;
+            }
+
+            #info-section img{
+                max-width: 20%;
+                height: auto;
+            }
+
+            #logo-section{
+                position: absolute;
+                top: 20%;
+                left: 40%;
+                transform: translate(-50%, 40%);
+
+            }
+
+            #logo-section img{
+                max-width:60%;
+                height:auto;
+            }
+
+            #info-section{
+                max-width:60%;
+                height:auto;
+                position: absolute;
+                top: 10%;
+                right: 30%;
+                transform: translate(60%, 20%);
+                inline-size:500px;
+                overflow-wrap: break-word;
+            }
+
+            h1{
+                font-size: 5em;
+            }
+
+
+            @media (max-width: 986px) {
+
+                #logo-section{
+                position: absolute;
+                top: 0%;
+                transform: translate(-20%, 200%);
+
+            }
+
+            #logo-section img{
+                max-width:80%;
+                height:auto;
+            }
+
+            #info-section{
+                max-width:100%;
+                height:auto;
+                position: absolute;
+                top: 0%;
+                transform: translate(20%, 20%);
+                inline-size:500px;
+                overflow-wrap: break-word;
+            }
+
+            #info-section img{
+                max-width: 10%;
+                height: auto;
+            }
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main-section">
+
+            <div id="logo-section">
+                <img src="felis.png">
+            </div>
+            
+
+            <div id="info-section">
+                <h1>FELIS</h1>
+                <p>Felis is the first Binance Smart Chain cat coin for the people, 
+                    by the people with 50% of the total supply airdropped to the BSC community. 
+                    The People got tired of toxic tokenomics and wanted to make a 
+                    fun memecoin where everyone gets a fair shot.</p>
+
+                    <a href="https://twitter.com/Felis_BSC"><img src="twitter.png"></a>
+                    <a href="https://bscscan.com/token/0x757e5e691cec2afd869294a7549f7a71d575b11c"><img src="bsc.png"></a>
+            </div>
+
+        </div>
+
+        <!-- <div id="info-section">
+            <h1>FELIS</h1>
+            <p>Felis is the first Binance Smart Chain cat coin for the people, 
+                by the people with 50% of the total supply airdropped to the BSC community. 
+                The People got tired of toxic tokenomics and wanted to make a 
+                fun memecoin where everyone gets a fair shot.</p>
+        </div> -->
+    </body>
+</html>
