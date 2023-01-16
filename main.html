@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Felis</title>
         <link rel="icon" type="image/x-icon" href="felisLogo.png">
+        <script src="jquery-3.6.1.min.js"></script>
         <style>
             body{
                 background-color: orange;
@@ -118,6 +119,12 @@
     <body>
         <div id="main-section">
 
+            <script>
+                  $(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
+            </script>
+
             <div id="logo-section">
                 <img src="felisLogo.png">
             </div>
@@ -132,6 +139,7 @@
 
                     <a href="https://twitter.com/Felis_BSC"><img src="twitter.png"></a>
                     <a href="https://bscscan.com/token/0x757e5e691cec2afd869294a7549f7a71d575b11c"><img src="bsc.png"></a>
+                    <a class="image-link" href="chart.png"><img src="chartLogo.png"></a>
             </div>
 
         </div>
